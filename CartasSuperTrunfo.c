@@ -70,6 +70,7 @@ int main()
     float PIBPopu2 = 0;
     PIBPopu2 = pib2 / populacao2;
 
+
     if (area1 > area2)
     {
         strcpy(Msg, "area1 é maior que area2");
@@ -78,13 +79,14 @@ int main()
     {
         strcpy(Msg, "area2 é maior que area1");
     }
+
     if (populacao1 < populacao2 && area1 < area2 && pib1 < pib2 && pontos1 < pontos2)
     {
-        strcpy(Msg2, "Carta 2 %s venceu",cidade2 );
+        strcpy(Msg2, "Carta 2 venceu");
     }
     if (populacao1 > populacao2 && area1 > area2 && pib1 > pib2 && pontos1 > pontos2)
     {
-        strcpy(Msg2, "Carta 1 %s venceu!  pupolação: %d", cidade1, populacao1);
+        strcpy(Msg2, "Carta 1 venceu! ");
     }
 
     if (populacao1 == populacao2 && area1 == area2 && pib1 == pib2 && pontos1 == pontos2)
