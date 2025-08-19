@@ -1,7 +1,7 @@
 #include <stdio.h>
-  #include <locale.h>
+ 
 int main(void) {
-     setlocale(LC_ALL, "pt_BR.UTF-8");
+
     // Dados da Carta 1
     char  estado1[3]   ;
     char  codigo1[3]   ;
